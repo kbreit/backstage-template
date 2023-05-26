@@ -1,7 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sample_Name
+  name: ansible_collection
+  description: An Ansible collection
+  tags:
+    - ansible
   annotations:
     backstage.io/techdocs-ref: dir:./docs
 spec:
