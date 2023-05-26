@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ansible_collection
+  name: ${{ values.name | dump }}
   description: An Ansible collection
   tags:
     - ansible
