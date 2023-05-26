@@ -1,0 +1,5 @@
+---
+- name: Hello World
+  tasks:
+    - debug:
+        msg: Hello World
