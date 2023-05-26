@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: Sample_Name
   annotations:
-backstage.io/techdocs-ref: dir:./docs
+    backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   owner: user:guest
