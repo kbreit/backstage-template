@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Sample_Name
+  annotations:
+backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   owner: user:guest
